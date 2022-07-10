@@ -1,0 +1,15 @@
+---
+- name: my second play
+
+  hosts: localhost
+  
+  vars:
+    firstname: Cinders
+    surname: Green
+    
+  tasks:
+  
+  - name: printy name
+    debug:
+      msg: "My name is {{ firstname }}"
+  

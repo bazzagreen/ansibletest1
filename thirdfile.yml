@@ -1,0 +1,7 @@
+---
+- name: my third file
+  hosts: localhost
+  tasks:
+  - name: hello mesage
+    debug:
+    msg: "Hello you"
